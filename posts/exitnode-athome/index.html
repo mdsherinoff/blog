@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<title>How I setup Exit Node through my Home Network | Puny Human&#39;s Attempt At Being a Web Landlord</title>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.160.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="https://mdsherinoff.github.io/css/index.css">
+<link rel="stylesheet" href="https://mdsherinoff.github.io/PT-Sans/index.css">
+<link rel="canonical" href="https://mdsherinoff.github.io/posts/exitnode-athome/">
+<link rel="alternate" type="application/rss+xml" href=""
+  title="Puny Human&#39;s Attempt At Being a Web Landlord">
+
+
+<header class="hover">
+  
+  <h1 class=""><a href="https://mdsherinoff.github.io/">Puny Human&#39;s Attempt At Being a Web Landlord</a></h1>
+  
+  
+  
+  
+  
+  
+  
+</header>
+
+<article>
+  <header class="meta">
+    <h1><a href="/posts/exitnode-athome/">How I setup Exit Node through my Home Network</a></h1>
+    <time datetime="2026-05-27T19:24:45&#43;03:00">May 27, 2026</time>
+  </header>
+  <p>I managed to do this through Tailscale.</p>
+<p>Follow my short and simple guide to setup remote access to home network and Proxmox server here:</p>
+<ul>
+<li><a href="https://mdsherinoff.github.io/posts/accesshome-anywhere/">How I Access My Home Network from Anywhere in The World</a></li>
+<li><a href="https://mdsherinoff.github.io/posts/accessserver-tailscale/">How I Access My Home Server from Anywhere in The World</a></li>
+</ul>
+<p>After you are done with setting up tailscale on your home and Proxmox server, go into your device console which is going to be used as your exit node and type this in:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo tailscale set --advertise-exit-node
+</span></span><span style="display:flex;"><span>sudo tailscale up
+</span></span></code></pre></div><p>Once you are done with this, all you have to do is go into your tailscale web console and permit the machine to act as an exit node.</p>
+<p>Now you have an exit node setup through the network at which your machine is.</p>
+<p>Access this exit node from another machine on your tailscale network as normally as connecting to the tailscale VPN and choosing the other machine as your exit node in there.</p>
+
+</article>
+
+
+<footer class="nowrap"><span></span> <a class="dark" href="/posts/accesshome-anywhere/">How I Access My Home Network from Anywhere in The World »</a></footer>
+
+
+</html>
