@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacy on Puny Human&#39;s Attempt At Being a Web Landlord</title>
+    <link>https://mdsherinoff.github.io/tags/privacy/</link>
+    <description>Recent content in Privacy on Puny Human&#39;s Attempt At Being a Web Landlord</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 May 2026 19:24:45 +0300</lastBuildDate>
+    <atom:link href="https://mdsherinoff.github.io/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I setup Exit Node through my Home Network</title>
+      <link>https://mdsherinoff.github.io/posts/exitnode-athome/</link>
+      <pubDate>Wed, 27 May 2026 19:24:45 +0300</pubDate>
+      <guid>https://mdsherinoff.github.io/posts/exitnode-athome/</guid>
+      <description>&lt;p&gt;I managed to do this through Tailscale.&lt;/p&gt;&#xA;&lt;p&gt;Follow my short and simple guide to setup remote access to home network and Proxmox server here:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mdsherinoff.github.io/posts/accesshome-anywhere/&#34;&gt;How I Access My Home Network from Anywhere in The World&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mdsherinoff.github.io/posts/accessserver-tailscale/&#34;&gt;How I Access My Home Server from Anywhere in The World&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;After you are done with setting up tailscale on your home and Proxmox server, go into your device console which is going to be used as your exit node and type this in:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
