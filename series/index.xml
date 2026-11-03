@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>series on Puny Human&#39;s Attempt At Being a Web Landlord</title>
-    <link>https://mdsherinoff.github.io/series/</link>
+    <link>https://mdsherinoff.github.io/blog/series/</link>
     <description>Recent content in series on Puny Human&#39;s Attempt At Being a Web Landlord</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 May 2026 19:24:45 +0300</lastBuildDate>
-    <atom:link href="https://mdsherinoff.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mdsherinoff.github.io/blog/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Home lab</title>
-      <link>https://mdsherinoff.github.io/series/home-lab/</link>
+      <link>https://mdsherinoff.github.io/blog/series/home-lab/</link>
       <pubDate>Wed, 27 May 2026 19:24:45 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/series/home-lab/</guid>
+      <guid>https://mdsherinoff.github.io/blog/series/home-lab/</guid>
       <description></description>
     </item>
   </channel>

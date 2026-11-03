@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Topics on Puny Human&#39;s Attempt At Being a Web Landlord</title>
-    <link>https://mdsherinoff.github.io/tags/</link>
+    <link>https://mdsherinoff.github.io/blog/tags/</link>
     <description>Recent content in Topics on Puny Human&#39;s Attempt At Being a Web Landlord</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 May 2026 19:24:45 +0300</lastBuildDate>
-    <atom:link href="https://mdsherinoff.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mdsherinoff.github.io/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Networking</title>
-      <link>https://mdsherinoff.github.io/tags/networking/</link>
+      <link>https://mdsherinoff.github.io/blog/tags/networking/</link>
       <pubDate>Wed, 27 May 2026 19:24:45 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/tags/networking/</guid>
+      <guid>https://mdsherinoff.github.io/blog/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://mdsherinoff.github.io/tags/privacy/</link>
+      <link>https://mdsherinoff.github.io/blog/tags/privacy/</link>
       <pubDate>Wed, 27 May 2026 19:24:45 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/tags/privacy/</guid>
+      <guid>https://mdsherinoff.github.io/blog/tags/privacy/</guid>
       <description></description>
     </item>
     <item>
       <title>Tailscale</title>
-      <link>https://mdsherinoff.github.io/tags/tailscale/</link>
+      <link>https://mdsherinoff.github.io/blog/tags/tailscale/</link>
       <pubDate>Wed, 27 May 2026 19:24:45 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/tags/tailscale/</guid>
+      <guid>https://mdsherinoff.github.io/blog/tags/tailscale/</guid>
       <description></description>
     </item>
     <item>
       <title>Self-hosting</title>
-      <link>https://mdsherinoff.github.io/tags/self-hosting/</link>
+      <link>https://mdsherinoff.github.io/blog/tags/self-hosting/</link>
       <pubDate>Sun, 05 Apr 2026 12:50:07 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/tags/self-hosting/</guid>
+      <guid>https://mdsherinoff.github.io/blog/tags/self-hosting/</guid>
       <description></description>
     </item>
     <item>
       <title>Proxmox</title>
-      <link>https://mdsherinoff.github.io/tags/proxmox/</link>
+      <link>https://mdsherinoff.github.io/blog/tags/proxmox/</link>
       <pubDate>Sun, 05 Apr 2026 12:48:36 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/tags/proxmox/</guid>
+      <guid>https://mdsherinoff.github.io/blog/tags/proxmox/</guid>
       <description></description>
     </item>
   </channel>

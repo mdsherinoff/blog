@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proxmox on Puny Human&#39;s Attempt At Being a Web Landlord</title>
-    <link>https://mdsherinoff.github.io/tags/proxmox/</link>
+    <link>https://mdsherinoff.github.io/blog/tags/proxmox/</link>
     <description>Recent content in Proxmox on Puny Human&#39;s Attempt At Being a Web Landlord</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 05 Apr 2026 12:48:36 +0300</lastBuildDate>
-    <atom:link href="https://mdsherinoff.github.io/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mdsherinoff.github.io/blog/tags/proxmox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I Access My Home Server from Anywhere in The World</title>
-      <link>https://mdsherinoff.github.io/posts/accessserver-tailscale/</link>
+      <link>https://mdsherinoff.github.io/blog/posts/accessserver-tailscale/</link>
       <pubDate>Sun, 05 Apr 2026 12:48:36 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/posts/accessserver-tailscale/</guid>
+      <guid>https://mdsherinoff.github.io/blog/posts/accessserver-tailscale/</guid>
       <description>&lt;p&gt;I started by creating an Ubuntu container inside my Proxmox Environment. I usually make the container ID the same as my static IP address I have determined for this container, so as to easily navigate. Don&amp;rsquo;t start your container yet.&lt;/p&gt;&#xA;&lt;p&gt;After the container is setup, I went to the host kernel into its:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;vi /etc/pve/lxc/{container ID}.conf&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;In there using the vi editor, I added a couple of lines:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;lxc.cgroup2.devices.allow: c 10:200 rwm&#xA;lxc.mount.entry: /dev/net/tun dev/net/tun none bind,create=file&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Exit from the vi editor and now start your container.&lt;/p&gt;</description>
     </item>
   </channel>

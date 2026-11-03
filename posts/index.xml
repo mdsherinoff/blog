@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The archive on Puny Human&#39;s Attempt At Being a Web Landlord</title>
-    <link>https://mdsherinoff.github.io/posts/</link>
+    <link>https://mdsherinoff.github.io/blog/posts/</link>
     <description>Recent content in The archive on Puny Human&#39;s Attempt At Being a Web Landlord</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 27 May 2026 19:24:45 +0300</lastBuildDate>
-    <atom:link href="https://mdsherinoff.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://mdsherinoff.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How I setup Exit Node through my Home Network</title>
-      <link>https://mdsherinoff.github.io/posts/exitnode-athome/</link>
+      <link>https://mdsherinoff.github.io/blog/posts/exitnode-athome/</link>
       <pubDate>Wed, 27 May 2026 19:24:45 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/posts/exitnode-athome/</guid>
-      <description>&lt;p&gt;I managed to do this through Tailscale.&lt;/p&gt;&#xA;&lt;p&gt;Follow my short and simple guide to setup remote access to home network and Proxmox server here:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mdsherinoff.github.io/posts/accesshome-anywhere/&#34;&gt;How I Access My Home Network from Anywhere in The World&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mdsherinoff.github.io/posts/accessserver-tailscale/&#34;&gt;How I Access My Home Server from Anywhere in The World&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;After you are done with setting up tailscale on your home and Proxmox server, go into your device console which is going to be used as your exit node and type this in:&lt;/p&gt;</description>
+      <guid>https://mdsherinoff.github.io/blog/posts/exitnode-athome/</guid>
+      <description>&lt;p&gt;I managed to do this through Tailscale.&lt;/p&gt;&#xA;&lt;p&gt;Follow my short and simple guide to setup remote access to home network and Proxmox server here:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mdsherinoff.github.io/blog/posts/accesshome-anywhere/&#34;&gt;How I Access My Home Network from Anywhere in The World&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://mdsherinoff.github.io/blog/posts/accessserver-tailscale/&#34;&gt;How I Access My Home Server from Anywhere in The World&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;After you are done with setting up tailscale on your home and Proxmox server, go into your device console which is going to be used as your exit node and type this in:&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I Access My Home Network from Anywhere in The World</title>
-      <link>https://mdsherinoff.github.io/posts/accesshome-anywhere/</link>
+      <link>https://mdsherinoff.github.io/blog/posts/accesshome-anywhere/</link>
       <pubDate>Sun, 05 Apr 2026 12:50:07 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/posts/accesshome-anywhere/</guid>
-      <description>&lt;p&gt;First setup Tailscale, follow my short and simple guide here:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://mdsherinoff.github.io/posts/accessserver-tailscale/&#34;&gt;How I Access My Home Server from Anywhere in The World&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;After you are done with that, go into your Tailscale container&amp;rsquo;s console and type in:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;sudo sysctl -w net.ipv4.ip_forward=1&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;echo &amp;#34;net.ipv4.ip_forward=1&amp;#34; | sudo tee -a /etc/sysctl.conf&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Verify it by:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;sysctl net.ipv4.ip_forward&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;It should show:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;net.ipv4.ip_forward = 1&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Start Tailscale again by:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;sudo tailscale up --advertise-routes={your subnet} --ssh&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;ex: sudo tailscale up --advertise-routes=192.168.1.0/24 --ssh&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;After that part is completed go into Tailscale admin panel, find your container in there and enable subnet routes.&lt;/p&gt;</description>
+      <guid>https://mdsherinoff.github.io/blog/posts/accesshome-anywhere/</guid>
+      <description>&lt;p&gt;First setup Tailscale, follow my short and simple guide here:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://mdsherinoff.github.io/blog/posts/accessserver-tailscale/&#34;&gt;How I Access My Home Server from Anywhere in The World&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;After you are done with that, go into your Tailscale container&amp;rsquo;s console and type in:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;sudo sysctl -w net.ipv4.ip_forward=1&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;echo &amp;#34;net.ipv4.ip_forward=1&amp;#34; | sudo tee -a /etc/sysctl.conf&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Verify it by:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;sysctl net.ipv4.ip_forward&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;It should show:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;net.ipv4.ip_forward = 1&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Start Tailscale again by:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;sudo tailscale up --advertise-routes={your subnet} --ssh&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;ex: sudo tailscale up --advertise-routes=192.168.1.0/24 --ssh&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;After that part is completed go into Tailscale admin panel, find your container in there and enable subnet routes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I Access My Home Server from Anywhere in The World</title>
-      <link>https://mdsherinoff.github.io/posts/accessserver-tailscale/</link>
+      <link>https://mdsherinoff.github.io/blog/posts/accessserver-tailscale/</link>
       <pubDate>Sun, 05 Apr 2026 12:48:36 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/posts/accessserver-tailscale/</guid>
+      <guid>https://mdsherinoff.github.io/blog/posts/accessserver-tailscale/</guid>
       <description>&lt;p&gt;I started by creating an Ubuntu container inside my Proxmox Environment. I usually make the container ID the same as my static IP address I have determined for this container, so as to easily navigate. Don&amp;rsquo;t start your container yet.&lt;/p&gt;&#xA;&lt;p&gt;After the container is setup, I went to the host kernel into its:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;vi /etc/pve/lxc/{container ID}.conf&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;In there using the vi editor, I added a couple of lines:&lt;/p&gt;&#xA;&lt;pre data-lang=&#34;shell&#34;&gt;&lt;code&gt;lxc.cgroup2.devices.allow: c 10:200 rwm&#xA;lxc.mount.entry: /dev/net/tun dev/net/tun none bind,create=file&lt;/code&gt;&lt;button class=&#34;copy&#34; type=&#34;button&#34;&gt;Copy&lt;/button&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Exit from the vi editor and now start your container.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://mdsherinoff.github.io/posts/myfirstpost/</link>
+      <link>https://mdsherinoff.github.io/blog/posts/myfirstpost/</link>
       <pubDate>Sun, 05 Apr 2026 11:43:24 +0300</pubDate>
-      <guid>https://mdsherinoff.github.io/posts/myfirstpost/</guid>
+      <guid>https://mdsherinoff.github.io/blog/posts/myfirstpost/</guid>
       <description>&lt;h2 id=&#34;hello-world&#34;&gt;Hello World&lt;a class=&#34;anchor&#34; href=&#34;#hello-world&#34; aria-label=&#34;Link to this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is my puny attempt at creating a &lt;strong&gt;Blog&lt;/strong&gt;. Planning to talk here about my fun ventures that means anything only to me. Afterall I should make myself content befor I set out to fix the world. Anyways Playing around here with Hugo.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo ↗&lt;/a&gt; website!&lt;/p&gt;</description>
     </item>
   </channel>
